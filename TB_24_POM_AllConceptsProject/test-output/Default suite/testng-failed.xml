@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Testing.DemoWebShop.Test.RegisterTest">
+      <class name="com.CJC.JpetDemo.Test.LoginTest">
         <methods>
-          <include name="launchURL"/>
-          <include name="deleteCokies"/>
-          <include name="afterSuite"/>
-          <include name="setUp"/>
           <include name="screenShot"/>
           <include name="Cookies"/>
-          <include name="closedb"/>
           <include name="maximize"/>
-          <include name="AllDatainExcel"/>
+          <include name="LoginTest"/>
+          <include name="launchURL"/>
+          <include name="closedb"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+          <include name="deleteCokies"/>
         </methods>
-      </class> <!-- com.Testing.DemoWebShop.Test.RegisterTest -->
+      </class> <!-- com.CJC.JpetDemo.Test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

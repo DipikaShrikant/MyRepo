@@ -1,80 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-31T19:15:42 IST" name="Suite" finished-at="2024-03-31T19:16:12 IST" duration-ms="30080">
+  <suite started-at="2024-04-02T12:38:17 IST" name="Default suite" finished-at="2024-04-02T12:38:22 IST" duration-ms="5426">
     <groups>
     </groups>
-    <test started-at="2024-03-31T19:15:42 IST" name="Test" finished-at="2024-03-31T19:16:12 IST" duration-ms="30080">
-      <class name="com.Testing.Magneto.Test.MagnetoLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:15:35 IST" name="setUp" finished-at="2024-03-31T19:15:42 IST" duration-ms="6631" status="PASS">
+    <test started-at="2024-04-02T12:38:17 IST" name="Default test" finished-at="2024-04-02T12:38:22 IST" duration-ms="5426">
+      <class name="com.CJC.JpetDemo.Test.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.CJC.JpetDemo.Test.LoginTest@4a7f959b]" started-at="2024-04-02T12:38:11 IST" name="setUp" finished-at="2024-04-02T12:38:17 IST" duration-ms="5506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="launchURL(java.lang.String)[pri:0, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:15:42 IST" name="launchURL" finished-at="2024-03-31T19:15:47 IST" duration-ms="5200" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://magento.softwaretestingboard.com/customer/account/create/]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:com.CJC.JpetDemo.Test.LoginTest@4a7f959b]" started-at="2024-04-02T12:38:17 IST" name="launchURL" finished-at="2024-04-02T12:38:20 IST" duration-ms="3883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method is-config="true" signature="Cookies()[pri:0, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:15:47 IST" name="Cookies" finished-at="2024-03-31T19:15:47 IST" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="Cookies()[pri:0, instance:com.CJC.JpetDemo.Test.LoginTest@4a7f959b]" started-at="2024-04-02T12:38:20 IST" name="Cookies" finished-at="2024-04-02T12:38:20 IST" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Cookies -->
-        <test-method is-config="true" signature="maximize()[pri:0, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:15:47 IST" name="maximize" finished-at="2024-03-31T19:15:48 IST" duration-ms="716" status="PASS">
+        <test-method is-config="true" signature="maximize()[pri:0, instance:com.CJC.JpetDemo.Test.LoginTest@4a7f959b]" started-at="2024-04-02T12:38:21 IST" name="maximize" finished-at="2024-04-02T12:38:21 IST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- maximize -->
-        <test-method signature="User_Info_form()[pri:1, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:15:48 IST" name="User_Info_form" finished-at="2024-03-31T19:15:57 IST" duration-ms="8365" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.CJC.JpetDemo.Test.LoginTest@4a7f959b]" started-at="2024-04-02T12:38:21 IST" name="LoginTest" finished-at="2024-04-02T12:38:21 IST" duration-ms="789" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- User_Info_form -->
-        <test-method is-config="true" signature="screenShot()[pri:0, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:15:57 IST" name="screenShot" finished-at="2024-03-31T19:15:58 IST" duration-ms="970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- screenShot -->
-        <test-method is-config="true" signature="maximize()[pri:0, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:15:58 IST" name="maximize" finished-at="2024-03-31T19:15:58 IST" duration-ms="242" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- maximize -->
-        <test-method signature="SignIn(java.lang.String,java.lang.String)[pri:2, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:15:58 IST" name="SignIn" finished-at="2024-03-31T19:16:09 IST" duration-ms="11183" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[VK100@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[VK123@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignIn -->
-        <test-method is-config="true" signature="screenShot()[pri:0, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:16:09 IST" name="screenShot" finished-at="2024-03-31T19:16:10 IST" duration-ms="562" status="PASS">
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="screenShot()[pri:0, instance:com.CJC.JpetDemo.Test.LoginTest@4a7f959b]" started-at="2024-04-02T12:38:21 IST" name="screenShot" finished-at="2024-04-02T12:38:22 IST" duration-ms="448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShot -->
-        <test-method is-config="true" signature="deleteCokies()[pri:0, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:16:10 IST" name="deleteCokies" finished-at="2024-03-31T19:16:12 IST" duration-ms="2553" status="PASS">
+        <test-method is-config="true" signature="deleteCokies()[pri:0, instance:com.CJC.JpetDemo.Test.LoginTest@4a7f959b]" started-at="2024-04-02T12:38:22 IST" name="deleteCokies" finished-at="2024-04-02T12:38:22 IST" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCokies -->
-        <test-method is-config="true" signature="closedb()[pri:0, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:16:12 IST" name="closedb" finished-at="2024-03-31T19:16:12 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="closedb()[pri:0, instance:com.CJC.JpetDemo.Test.LoginTest@4a7f959b]" started-at="2024-04-02T12:38:22 IST" name="closedb" finished-at="2024-04-02T12:38:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedb -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.Testing.Magneto.Test.MagnetoLoginTest@d737b89]" started-at="2024-03-31T19:16:12 IST" name="afterSuite" finished-at="2024-03-31T19:16:12 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.CJC.JpetDemo.Test.LoginTest@4a7f959b]" started-at="2024-04-02T12:38:22 IST" name="afterSuite" finished-at="2024-04-02T12:38:23 IST" duration-ms="409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.Testing.Magneto.Test.MagnetoLoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.CJC.JpetDemo.Test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
