@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Utility.ITestListners"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<parameter name="url" value="https://magento.softwaretestingboard.com/customer/account/create/"></parameter>
+		<parameter name="username" value="VK100@gmail.com"></parameter>
+		<parameter name="pass" value="VK123@123"></parameter>
+		<classes>
+			<class name="com.Testing.Magneto.Test.MagnetoLoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

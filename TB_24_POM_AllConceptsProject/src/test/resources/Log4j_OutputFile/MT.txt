@@ -1,0 +1,23 @@
+INFO	2024-03-30 12:20:24,071	0	com.IT.MT.Test.LoginTest	[main]	Simple Login Test Sucessful
+INFO	2024-03-30 12:20:30,361	6290	com.IT.MT.Test.LoginTest	[main]	Login Test wth DataProvider Successful
+INFO	2024-03-30 12:20:39,745	15674	com.IT.MT.Test.LoginTest	[main]	Login Test wth DataProvider Successful
+INFO	2024-03-30 12:20:42,915	18844	com.IT.MT.Test.LoginTest	[main]	Login test with Properties fille Successfull
+INFO	2024-03-30 12:20:48,990	24919	com.IT.MT.Test.LoginTest	[main]	Login from excel Data successful
+INFO	2024-03-30 12:21:00,447	36376	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 12:40:20,053	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 12:52:13,512	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 13:01:01,297	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 13:02:56,769	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 22:26:25,204	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 22:28:30,415	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 22:39:18,760	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 22:40:30,945	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 22:41:36,259	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 22:42:00,892	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-30 22:45:56,253	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-31 12:39:01,513	0	com.Testing.Magneto.Test.LoginTest	[main]	close DB
+INFO	2024-03-31 12:40:27,114	0	com.Testing.Magneto.Test.LoginTest	[main]	close DB
+INFO	2024-03-31 12:50:39,218	0	com.Testing.Magneto.Test.LoginTest	[main]	close DB
+INFO	2024-03-31 12:52:26,208	0	com.Testing.Magneto.Test.LoginTest	[main]	close DB
+INFO	2024-03-31 12:54:58,036	0	com.IT.MT.Test.LoginTest	[main]	close DB
+INFO	2024-03-31 12:57:50,816	0	com.Testing.Magneto.Test.LoginTest	[main]	close DB
